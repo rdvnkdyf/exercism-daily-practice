@@ -1,0 +1,1 @@
+export const eggCount = (displayValue) => [...displayValue.toString(2)].filter(value => value === '1').length

@@ -1,0 +1,1 @@
+export const isIsogram = input => ! /(\w).*\1/i.test(input);
